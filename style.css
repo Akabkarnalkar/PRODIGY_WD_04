@@ -1,0 +1,246 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: burlywood;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    padding: 0px 100px;
+    background-color: brown;
+}
+
+.logo {
+    font-size: 30px;
+    color: whitesmoke;
+    float: left;
+}
+
+#n {
+    color: black;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    font-size: 18px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+nav li a:hover {
+    background-color: whitesmoke;
+    color: brown;
+    transition: .4s ease;
+    text-decoration: underline;
+}
+
+
+
+/*home section*/
+
+#home {
+    display: flex;
+    /* background-color: yellow; */
+    flex-direction: column;
+    height: 715px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+#h1 {
+    font-size: 30px;
+    margin: 40px 0px;
+    line-height: 80px;
+    letter-spacing: 5px;
+}
+
+#sh {
+    font-size: 50px;
+    color: brown;
+}
+
+#h-img {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+#home img {
+    border-radius: 50%;
+}
+
+#h-h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 35px 0px;
+    line-height: 80px;
+    letter-spacing: 4px;
+}
+
+#h-h1:hover {
+    text-decoration: underline;
+    transition: .10s ease;
+}
+
+.btn {
+    padding: 10px 24px;
+    font-size: 18px;
+    margin: 0px 10px;
+    background-color: brown;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn2 {
+    padding: 10px 35px;
+}
+
+.btn:hover {
+    font-weight: bold;
+    box-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 15px black;
+}
+
+
+
+
+/* ABOUT SECTION*/
+
+#about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 10%;
+    margin-bottom: 50px;
+}
+
+#pic {
+    display: flex;
+    padding: 0 60px;
+}
+
+#pic img {
+    width: 100%;
+    height: 550px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    line-height: 50px;
+}
+
+
+
+
+/*PROJECTS SECTION*/
+#projects {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+/*contacts*/
+
+#contact {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 35px 75px;
+    border-radius: 28px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    font-size: '25px';
+    margin: 11px auto;
+    border-radius: 8px;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 23%;
+    margin: 20px auto;
+}
+
+
+
+/*Footer*/
+
+footer {
+    height: 30px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+#fa:hover {
+    text-decoration: underline;
+}
